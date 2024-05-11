@@ -4,7 +4,8 @@
 #### A project completed as part of the Frontend Courses.
 #### As part of the course not all pages were executed 
 
-# [main page](https://mashakrot.github.io/escape-room/build/main.html)
+# [main page](https://mashakrot.github.io/escape-room-english/build/main.html)
+
 ## Website navigation:
 
     main.html --- Main page

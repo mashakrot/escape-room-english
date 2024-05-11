@@ -1,5 +1,8 @@
 #  Website about booking the quest rooms 
-Made by Marija Krotova
+### Made by Marija Krotova
+
+#### A project completed as part of the Frontend Courses.
+#### As part of the course not all pages were executed 
 
 # [main page](https://mashakrot.github.io/escape-room/build/main.html)
 ## Website navigation:
@@ -7,7 +10,7 @@ Made by Marija Krotova
     main.html --- Main page
     catalog.html ---All quests in the city
     maniac.html --- Quest "Maniac"
-    ritual.html --- Quest "Ritual"
+    ritual.html --- Quest "The Ritual"
     secret-of-old-mansion.html --- Quest "Secrets of old mansion"
     fatal-experiment.html --- Quest "Fatal experiment"
     order.html --- Booking a quest of your choice

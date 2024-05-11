@@ -1,0 +1,70 @@
+.payment-button {
+  display: inline-table;
+  height: max-content;
+  padding: 0;
+  margin: 0;
+  margin-top: 57px;
+  padding-bottom: 9px;
+  padding-right: 11px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #f2890f;
+}
+
+.payment-button::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 7px;
+  margin-top: 7px;
+  margin-left: 6px;
+  background-image: url("../img/big-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.payment-button:hover {
+  opacity: 0.8;
+  border-bottom-color: #f39425;
+}
+
+.payment-button:active {
+  opacity: 0.8;
+  border-bottom-color: #f39425;
+}
+
+.payment-button:focus {
+  opacity: 0.8;
+  border-bottom-color: #f39425;
+}
+
+.payment-button:hover::after {
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.payment-button:focus::after {
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.payment-button:active::after {
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+@media (max-width: @tablet-width) {
+  .payment-button {
+    width: max-content;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: @mobile-width) {
+  .payment-button {
+    margin-top: 27px;
+    padding-bottom: 7px;
+  }
+}

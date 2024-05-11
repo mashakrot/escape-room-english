@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/raleway-extrabold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/raleway-medium.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/raleway-regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/raleway-semibold.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Order a quest</title>
+  </head>
+
+  <body>
+    <div class="body-wrapper body-wrapper__maniac-order">
+      <!-- <div style="display: none;">
+        <include src="build/img/sprite.svg"></include>
+      </div> -->
+
+      <header class="page-header">
+        <div class="page-header__wrapper">
+          <div class="page-header__logo-wrapper">
+            <a class="page-header__logo" href="main.html">
+              <picture>
+                <!-- 96px 36px-->
+                <source media="(max-width: 767px)" srcset="img/logo-mobile.svg">
+                <!-- 134px 52px-->
+                <img src="img/logo-desktop.svg" alt="Logo Escape room" width="134" height="52">
+              </picture>
+            </a>
+            <div class="navigation-button">Menu</div>
+          </div>
+          <nav class="page-header__navigation">
+            <ul class="navigation-list">
+              <li class="navigation-list__item navigation-list__item--active">
+                <a href="catalog.html">Quests</a>
+              </li>
+              <li class="navigation-list__item">
+                <a href="#">Reviews</a>
+              </li>
+              <li class="navigation-list__item">
+                <a href="#">Special offers</a>
+              </li>
+              <li class="navigation-list__item">
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+            <div class="nav-wrapper">
+              <button class="button-select-city" tabindex="0" type="button">Vilnius</button>
+              <a class="contact-phone" href="tel:83832840160">+370 521 22 222</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main class="page-content quest-order">
+        <a href="maniac.html" class="quest-order__description">Description</a>
+        <p class="quest-order__genre">horror, thriller</p>
+
+        <p class="quest-order__text">Selected quest</p>
+        <h1>Maniac</h1>
+
+        <div class="select-date-wrapper">
+          <button class="button-select-date" tabindex="0">Select a date</button>
+          <p class="selected-date">22 марта</p>
+        </div>
+        <ul class="sessions-states">
+          <li class="sessions-states__item sessions-states__item--free">– free</li>
+          <li class="sessions-states__item sessions-states__item--busy">– occupied</li>
+          <li class="sessions-states__item sessions-states__item--selected">– chosen by you</li>
+        </ul>
+
+        <ul class="sessions-time-list">
+          <li class="sessions-time-list__item">
+            <input id="time-9:45" name="session-time" value="9:45" type="radio">
+            <label for="time-9:45" tabindex="0">9:45</label>
+
+            <p class="sessions-time-list__price">30 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-11:00" name="session-time" value="11:00" type="radio">
+            <label for="time-11:00" tabindex="0">11:00</label>
+
+            <p class="sessions-time-list__price">30 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-12:15" name="session-time" value="12:15" type="radio" disabled>
+            <label for="time-12:15" tabindex="0">12:15</label>
+
+            <p class="sessions-time-list__price">30 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-13:30" name="session-time" value="13:30" type="radio" disabled>
+            <label for="time-13:30" tabindex="0">13:30</label>
+
+            <p class="sessions-time-list__price">30 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-14:45" name="session-time" value="14:45" type="radio">
+            <label for="time-14:45" tabindex="0">14:45</label>
+
+            <p class="sessions-time-list__price">30 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-16:00" name="session-time" value="16:00" type="radio">
+            <label for="time-16:00" tabindex="0">16:00</label>
+            <p class="sessions-time-list__price">40 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-17:15" name="session-time" value="17:15" type="radio" disabled>
+            <label for="time-17:15" tabindex="0">17:15</label>
+
+            <p class="sessions-time-list__price">40 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-18:30" name="session-time" value="18:30" type="radio">
+            <label for="time-18:30" tabindex="0">18:30</label>
+
+            <p class="sessions-time-list__price">40 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-19:45" name="session-time" value="19:45" type="radio">
+            <label for="time-19:45" tabindex="0">19:45</label>
+
+            <p class="sessions-time-list__price">40 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-21:00" name="session-time" value="21:00" type="radio">
+            <label for="time-21:00" tabindex="0">21:00</label>
+            <p class="sessions-time-list__price">50 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-22:15" name="session-time" value="22:15" type="radio" disabled>
+            <label for="time-22:15" tabindex="0">22:15</label>
+            <p class="sessions-time-list__price">50 €</p>
+          </li>
+          <li class="sessions-time-list__item">
+            <input id="time-23:30" name="session-time" value="23:30" type="radio" disabled>
+            <label for="time-23:30" tabindex="0">23:30</label>
+            <p class="sessions-time-list__price">50 €</p>
+          </li>
+        </ul>
+
+        <div class="quest-order__wrapper">
+          <p>You've chosen a game <span class="quest-order__date-span"> 22 марта </span> &nbsp;at&nbsp; <span class="quest-order__time-span"> 16:00.</span> To be paid&nbsp;<span class="quest-order__price-span">40</span>&nbsp;</p>
+          <a href="#" class="payment-button">Proceed to payment</a>
+        </div>
+      </main>
+
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <ul class="social-networks">
+            <li class="social-networks__item">
+              <a href="#" class="social-networks__instagram">
+              </a>
+            </li>
+            <!-- Maybe add something else -->
+          </ul>
+          <button class="button-ask-question" type="button">Ask a question</button>
+        </div>
+      </footer>
+
+      <section class="modal-window modal-select-city">
+        <h2>Your city:</h2>
+        <div class="close-button modal-select-city__close-button"></div>
+        <a class="button-to-locate" href="#">Determine the location</a>
+
+        <p>... or select manually</p>
+        <ul class="cities-list">
+          <li class="cities-list__item">
+            <a href="#">Vilnius</a>
+          </li>
+          <li class="cities-list__item">
+            <a href="#">Kaunas</a>
+          </li>
+          <li class="cities-list__item">
+            <a href="#">Klaipėda</a>
+          </li>
+          <li class="cities-list__item">
+            <a href="#">Šiauliai</a>
+          </li>
+          <li class="cities-list__item">
+            <a href="#">Panevėžys</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="modal-window modal-ask-question">
+        <h2>Ask a question</h2>
+        <div class="close-button modal-ask-question__close-button"></div>
+        <form class="question-form" action="#">
+          <p class="question-form__text">Leave your name, so that we can contact you</p>
+          <p class="question-form__name-in-focus question-form__name-in-focus--block">Name</p>
+          <label for="your-name">Name</label>
+          <input name="name" id="your-name" type="text" autofocus
+          required>
+
+          <p class="question-form__text">Leave your email, to receive an answer</p>
+          <p class="question-form__email-in-focus">E-mail</p>
+
+          <label for="your-email">E-mail</label>
+          <input name="e-mail" type="email" id="your-email" placeholder="E-mail" required>
+          <p class="question-form__invalid-text question-form__invalid-text--none">Incorrect e-mail was entered, try again</p>
+
+          <p class="question-form__moving-text">Your question:</p>
+          <label for="your-question">Question</label>
+          <textarea name="question" id="your-question" placeholder="Начните вводить ..."></textarea>
+          <button class="button button--submit-question" type="submit" disabled>Send</button>
+
+          <input class="question-form__checkbox" name="user-agreement" type="checkbox" id="rules">
+          <label for="rules">I agree with the <a href="#">personal data processing rules</a> and the user agreement</label>
+        </form>
+      </section>
+
+      <section class="modal-type-date">
+        <input class="modal-type-date__input" type="date" max="2100-01-01" min="2000-01-01" value="2020-03-22">
+      </section>
+
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

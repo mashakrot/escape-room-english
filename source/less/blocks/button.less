@@ -1,0 +1,102 @@
+.button {
+  width: 250px;
+  height: 42px;
+  padding: 0;
+  padding-top: 23px;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #f28a0f;
+  border: none;
+  border-radius: 65px;
+}
+
+.button--to-book {
+  margin-left: 33px;
+  margin-top: 42px;
+}
+
+.button--select-quest {
+  margin-top: 66px;
+}
+
+.button:hover {
+  background-color: #f39425;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #f39425;
+  cursor: pointer;
+}
+
+.button:focus {
+  background-color: #f39425;
+  cursor: pointer;
+}
+
+.button--submit-question:disabled {
+  width: 219px;
+  height: 47px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 98px;
+  font-size: 14px;
+  background-color: #b8b8b8;
+  cursor: auto;
+}
+
+.button--submit-question {
+  width: 219px;
+  height: 47px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 98px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f28a0f;
+}
+
+@media (max-width: @tablet-width) {
+  .button--select-quest {
+    width: 225px;
+    height: 38px;
+    font-size: 15px;
+    margin-top: 55px;
+    padding-top: 19px;
+  }
+}
+
+@media (max-width: @mobile-width) {
+  .button--select-quest {
+    width: 185px;
+    height: 32px;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 34px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .button--submit-question {
+    margin-top: 30px;
+    margin-left: calc(50% - 114px);
+  }
+
+  .button--submit-question:disabled {
+    margin-top: 30px;
+    margin-left: calc(50% - 114px);
+  }
+
+  .button--to-book {
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+}

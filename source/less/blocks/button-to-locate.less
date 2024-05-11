@@ -1,0 +1,37 @@
+.button-to-locate {
+  display: inline-block;
+  vertical-align: baseline;
+  height: 21px;
+  margin-top: 30px;
+  margin-left: 61px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.button-to-locate::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-left: -30px;
+  margin-top: -3px;
+  background-image: url("../img/gps-location.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+@media (max-width: @tablet-width) {
+  .button-to-locate {
+    height: 19px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: @mobile-width) {
+  .button-to-locate {
+    height: 22px;
+    margin-left: 45px;
+    font-size: 17px;
+  }
+}

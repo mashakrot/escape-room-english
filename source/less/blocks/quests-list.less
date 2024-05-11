@@ -1,0 +1,291 @@
+.quests-list {
+  display: flex;
+  width: calc(100% - 14px);
+  padding: 0;
+  margin: 0;
+  padding-bottom: 50px;
+  // margin-top: 316px;
+  margin-top: 242px;
+  flex-wrap: wrap;
+}
+
+.quests-list__item {
+  display: block;
+  width: calc(35% - 34px);
+  margin-top: 31px;
+  margin-right: 24px;
+  list-style: none;
+  color: #ffffff;
+  background-size: auto 100%;
+  border-radius: 3px;
+}
+
+.quests-list__item:hover {
+  opacity: 0.8;
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.quests-list__item:active {
+  opacity: 0.8;
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.quests-list__item:focus {
+  opacity: 0.8;
+  outline: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.quests-list__item a {
+  padding-top: 14px;
+  background: linear-gradient(0.36deg, rgba(28, 27, 27, 0.9) 5.23%, rgba(46, 46, 46, 0) 98.38%);
+}
+
+.quests-list__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.quests-list__hit {
+  width: 55px;
+  padding: 5px 12px;
+  padding-left: 30px;
+  // margin-left: calc(100% - 84px);
+  margin-left: calc(100% - 120px);
+  font-weight: 500;
+  font-size: 12px;
+  border: 2px solid rgba(242, 137, 15, 0.74);
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.quests-list__hit::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: -18px;
+  margin-top: -1px;
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.quests-list__hit--no {
+  visibility: hidden;
+}
+
+.quests-list h2 {
+  padding: 0;
+  margin: 0;
+  margin-left: 19px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.quests-list p {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 39px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.quests-list p::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 14px;
+  margin-left: -18px;
+  margin-top: 1px;
+  background-image: url("../img/location.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.quests-list__title-wrapper {
+  // height: 126px;
+  height: 115px;
+  display: flex;
+  margin-bottom: 11px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quests-list__item--vault {
+  background-image: url("../img/vault.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #0e0a09;
+}
+
+.quests-list__item--maniac {
+  background-image: url("../img/maniac.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #040506;
+}
+
+.quests-list__item--ritual {
+  background-image: url("../img/ritual.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #0e100f;
+}
+
+.quests-list__item--ghost-story {
+  background-image: url("../img/ghost-story.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #050503;
+}
+
+.quests-list__item--secret-of-old-mansion {
+  background-image: url("../img/secret-of-old-mansion.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #0c262d;
+}
+
+.quests-list__item--cabin-in-forest {
+  background-image: url("../img/cabin-in-forest.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #0c0f20;
+}
+
+.quests-list__item--fatal-experiment {
+  background-image: url("../img/fatal-experiment.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #211514;
+}
+
+.quests-list__item--underground-2033 {
+  background-image: url("../img/underground-2033.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #161914;
+}
+
+.quests-list__item--old-attic {
+  background-image: url("../img/old-attic.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #b8875c;
+}
+
+.quests-list__item--last-frontier {
+  background-image: url("../img/last-frontier.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #3e3a2c;
+}
+
+.quests-list__item--mars-2056 {
+  background-image: url("../img/mars-2056.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #c5d0e2;
+}
+
+@media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+  .quests-list__item--vault {
+    background-image: url("../img/vault@2x.png");
+  }
+
+  .quests-list__item--maniac {
+    background-image: url("../img/maniac@2x.png");
+  }
+
+  .quests-list__item--ritual {
+    background-image: url("../img/ritual@2x.png");
+  }
+
+  .quests-list__item--ghost-story {
+    background-image: url("../img/ghost-story@2x.png");
+  }
+
+  .quests-list__item--secret-of-old-mansion {
+    background-image: url("../img/secret-of-old-mansion@2x.png");
+  }
+
+  .quests-list__item--cabin-in-forest {
+    background-image: url("../img/cabin-in-forest@2x.png");
+  }
+
+  .quests-list__item--fatal-experiment {
+    background-image: url("../img/fatal-experiment@2x.png");
+  }
+
+  .quests-list__item--underground-2033 {
+    background-image: url("../img/underground-2033@2x.png");
+  }
+
+  .quests-list__item--old-attic {
+    background-image: url("../img/old-attic@2x.png");
+  }
+
+  .quests-list__item--last-frontier {
+    background-image: url("../img/last-frontier@2x.png");
+  }
+
+  .quests-list__item--mars-2056 {
+    background-image: url("../img/mars-2056@2x.png");
+  }
+}
+
+@media (max-width: @tablet-width) {
+  .quests-list {
+    width: calc(25% + 515px);
+    margin: 0 auto;
+    padding-bottom: 50px;
+    margin-top: 374px;
+    justify-content: space-between;
+  }
+
+  .quests-list__item {
+    width: calc(25% + 151px);
+    margin: 0;
+    margin-top: 31px;
+  }
+
+  .quests-list__item:nth-child(3n) {
+    margin-right: 24px;
+  }
+
+  .quests-list__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: @mobile-width) {
+  .quests-list {
+    width: 328px;
+    margin: 0 auto;
+    margin-top: 97px;
+  }
+
+  .quests-list--js-is {
+    // margin-top: 220px;
+    margin-top: 210px;
+  }
+
+  .quests-list__item {
+    width: 100%;
+    margin: 0;
+    margin-top: 16px;
+  }
+
+  .quests-list__item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .quests-list__hit {
+    // margin-left: calc(100% - 81px);
+    margin-left: calc(100% - 120px);
+  }
+}

@@ -1,0 +1,28 @@
+.close-button {
+  position: absolute;
+  top: 46px;
+  right: 36px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.close-button::before,
+.close-button::after {
+  content: "";
+  position: absolute;
+  width: 19px;
+  border: 1px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+.close-button::after {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: @mobile-width) {
+  .close-button {
+    right: 20px;
+  }
+}

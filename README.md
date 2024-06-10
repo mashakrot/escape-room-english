@@ -1,10 +1,10 @@
-#  Website about booking the quest rooms 
-### Made by Marija Krotova
+##  Website about booking the quest rooms 
+Made by Marija Krotova
 
 #### A project completed as part of the Frontend Courses.
 #### As part of the course not all pages were executed 
 
-### [Website main page](https://mashakrot.github.io/escape-room-english/build/main.html)
+#### [Website main page](https://mashakrot.github.io/escape-room-english/build/main.html)
 
 ## Website navigation:
 
